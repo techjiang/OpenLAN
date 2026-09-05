@@ -1,0 +1,19 @@
+node_modules/
+logs/
+*.log
+
+# 运行期生成的数据
+shared/*
+!shared/.gitkeep
+downloads/*
+!downloads/.gitkeep
+.tmp/
+.auto/
+data/
+dist/
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/

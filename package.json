@@ -1,0 +1,30 @@
+{
+  "name": "openlan",
+  "version": "1.0.3",
+  "description": "OpenLAN —— 开源局域网文件急速传输工具（并发分片 · 设备直推 · 扫码即达）",
+  "main": "server/index.js",
+  "bin": {
+    "openlan": "bin/openlan.js"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "release:win": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/make-release.ps1",
+    "test": "node test/ui-check.js && node test/smoke.js && node test/p2p-smoke.js"
+  },
+  "keywords": [
+    "lan",
+    "file-transfer",
+    "local-network",
+    "p2p",
+    "qr",
+    "open-source"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  }
+}
