@@ -4,7 +4,7 @@
 
 > 开源局域网文件急速传输工具 —— 浏览器即用 · 多线程分片下载 · 设备点对点直传 · 扫码即达
 
-![Node](https://img.shields.io/badge/Node.js-18%2B-339933) ![Version](https://img.shields.io/badge/version-1.0.3-c27b9a) ![License](https://img.shields.io/badge/License-MIT-blue) ![Deps](https://img.shields.io/badge/dependencies-1%20(qrcode)-informational) ![Author](https://img.shields.io/badge/author-%E7%A7%91%E6%8A%80%E9%85%B1-c27b9a)
+![Node](https://img.shields.io/badge/Node.js-18%2B-339933) ![Version](https://img.shields.io/badge/OpenLAN-version-1.0.3-c27b9a) ![License](https://img.shields.io/badge/License-MIT-blue) ![Deps](https://img.shields.io/badge/dependencies-1%20(qrcode)-informational) ![Author](https://img.shields.io/badge/author-%E7%A7%91%E6%8A%80%E9%85%B1-c27b9a)
 
 OpenLAN 让局域网内的文件传输**快、稳、无门槛**：不装客户端、不注册账号、不经过任何第三方服务器。在任意设备的浏览器打开同一台机器的页面，即可浏览 / 上传 / 下载共享目录；也可以把文件或文本**点对点推送给指定设备**，或用**二维码 / 提取码**一扫即领。
 
